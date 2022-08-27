@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+   <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -27,10 +28,6 @@
     <link href="/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" >
-
-    
-    
     <!-- Template Main CSS File -->
     <link href="/css/style.css" rel="stylesheet">
 
