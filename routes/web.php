@@ -41,3 +41,7 @@ Route::post('/actionInscription', function(){
     return view('actionInscription');
     //return "Votre email est :" . request('email');
 });
+
+Route::get('/test', function(){
+    return view('test');
+});
