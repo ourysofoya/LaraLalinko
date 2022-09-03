@@ -14,10 +14,13 @@ return new class extends Migration
     public function up()
     {
         Schema::create('_payments', function (Blueprint $table) {
+            $table->id();
+            /*
             $table->string ('payment_ID')->primary();
             $table->foreign ('customer_ID')->references('customer_ID')->on('_customers');
             $table->int ('contact_add');
             $table->date ('date');
+            */
             $table->timestamps();
         });
     }

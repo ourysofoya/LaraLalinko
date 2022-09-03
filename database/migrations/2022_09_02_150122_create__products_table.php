@@ -14,9 +14,12 @@ return new class extends Migration
     public function up() 
     {
         Schema::create('_products', function (Blueprint $table) {
+            $table->id();
+            /*
             $table->string ('product_ID')->primary();
             $table->foreign('category_ID')->references('category_ID')->on ('_categories');
             $table->string ('product_name');
+            */
             $table->timestamps();
         });
     }

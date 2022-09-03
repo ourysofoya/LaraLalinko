@@ -14,9 +14,12 @@ return new class extends Migration
     public function up()
     {
         Schema::create('_shopping_order', function (Blueprint $table) {
+            $table->id();
+            /*
             $table->string ('order_ID')->primary();
             $table->foreign ('customer_ID')->references('customer_ID')->on ('_customers');
             $table->date ('date');
+            */
             $table->timestamps();
         });
     }
